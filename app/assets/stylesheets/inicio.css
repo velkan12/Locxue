@@ -12,7 +12,7 @@ html{
 
 
 body{
-	background: blue;
+	
 	border-radius: 1em;
 	color: white;
 	margin: 1em auto;
@@ -22,6 +22,70 @@ header{
 	background:#071019;
 	margin: 2 auto;
 	max-width: 90%;
-	gn: center;
+	max-width: 100%;
+	padding: 0.25em;
+
 }
+#contenedor{
+
+	border: 0.18em solid #57ABB8;
+	border-radius: 1em;
+	margin: 0 auto;
+	max-width: 100%;
+	padding: 0.25em;
+	width:90%;
+}
+#principal{
+	border: 0.18em solid #57ABB8;
+	border-radius: 1em;
+	background: #000;
+	display: inline-block;
+	width: 60%;
+	min-height: 600px;
+	vertical-align: top;
+}
+#social{
+		
+	border-radius: 1em;
+	position:relative;
+		top:0px;
+		left:20px;
+
+	display: inline-block;
+	width: 37%;
+	min-height: 600px;
+	vertical-align: top;
+}
+article{
+	margin: 0,15;
+	position:relative;
+		top:2px;
+		left:2px;
+		vertical-align: middle;
+
+	
+}
+
+section#twitterlocxue, section#twitteragilescolombia{
+	
+	border-radius: 1em;
+	height: 10%;
+	
+	
+
+}
+div{
+	background-color: rgba(0,0,0,0.9);
+	margin: 5%;
+
+	
+
+}
+
+
+
+
+
+
+
 
