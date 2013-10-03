@@ -7,7 +7,11 @@ gem 'rails', '3.2.13'
 
 gem 'sqlite3'
 
+gem 'guard'
+gem 'guard-rails'
 
+ gem 'rspec-rails', '~> 2.0'
+''
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do

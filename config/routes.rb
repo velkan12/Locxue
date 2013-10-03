@@ -1,4 +1,7 @@
 Locxue::Application.routes.draw do
+  get "proyecto/listado"
+	get "proyecto/todos"
+
   get "inicio/index"
 
   # The priority is based upon order of creation:
