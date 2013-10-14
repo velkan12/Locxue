@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Numero acta:</strong>
+  <%= @actum.numero_acta %>
+</p>
+
+<p>
+  <strong>Fecha:</strong>
+  <%= @actum.fecha %>
+</p>
+
+<p>
+  <strong>Lugar:</strong>
+  <%= @actum.lugar %>
+</p>
+
+<p>
+  <strong>Desarrollo:</strong>
+  <%= @actum.desarrollo %>
+</p>
+
+<p>
+  <strong>Participantes:</strong>
+  <%= @actum.participantes %>
+</p>
+
+<p>
+  <strong>Cncluciones:</strong>
+  <%= @actum.cncluciones %>
+</p>
+
+<p>
+  <strong>Tareas:</strong>
+  <%= @actum.tareas %>
+</p>
+
+<%= link_to 'Edit', edit_actum_path(@actum) %> |
+<%= link_to 'Back', acta_path %>

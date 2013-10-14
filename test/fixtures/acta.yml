@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  numero_acta: 1
+  fecha: 2013-10-12
+  lugar: MyString
+  desarrollo: MyText
+  participantes: MyText
+  cncluciones: MyText
+  tareas: MyText
+
+two:
+  numero_acta: 1
+  fecha: 2013-10-12
+  lugar: MyString
+  desarrollo: MyText
+  participantes: MyText
+  cncluciones: MyText
+  tareas: MyText
