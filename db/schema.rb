@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131012175720) do
+ActiveRecord::Schema.define(version: 20131015182558) do
 
   create_table "acta", force: true do |t|
     t.integer  "numero_acta"
@@ -25,11 +25,52 @@ ActiveRecord::Schema.define(version: 20131012175720) do
     t.datetime "updated_at"
   end
 
+  create_table "categoria", force: true do |t|
+    t.string   "nombre_categoria"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "permisos", force: true do |t|
+    t.integer  "codigo_permiso"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "procesos", force: true do |t|
+    t.string   "nombre_proceso"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "proyecto_usuarios", force: true do |t|
+    t.integer  "usuario_id"
+    t.integer  "proyecto_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "proyectos", force: true do |t|
     t.string   "titulo"
     t.text     "descripcion"
     t.text     "integrantes"
-    t.integer  "etapa"
+    t.string   "etapa"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "publicacions", force: true do |t|
+    t.string   "titulo_publicacion"
+    t.text     "descripcion_publicacion"
+    t.date     "fecha_publicacion"
+    t.integer  "codigo_usuario"
+    t.integer  "codigo_categoria"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "rols", force: true do |t|
+    t.string   "nombre_rol"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

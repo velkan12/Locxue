@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  titulo_publicacion: MyString
+  descripcion_publicacion: MyText
+  fecha_publicacion: 2013-10-14
+  codigo_usuario: 1
+  codigo_categoria: 1
+
+two:
+  titulo_publicacion: MyString
+  descripcion_publicacion: MyText
+  fecha_publicacion: 2013-10-14
+  codigo_usuario: 1
+  codigo_categoria: 1

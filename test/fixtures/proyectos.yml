@@ -3,11 +3,9 @@
 one:
   titulo: MyString
   descripcion: MyText
-  integrantes: MyText
-  etapa: 1
+  etapa: MyString
 
 two:
   titulo: MyString
   descripcion: MyText
-  integrantes: MyText
-  etapa: 1
+  etapa: MyString

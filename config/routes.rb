@@ -1,13 +1,24 @@
 Portal::Application.routes.draw do
+ 
+
+ 
+
   get "homepage/index"
   get "actas" => "homepage#actas"
-  get "proyectos" => "homepage#proyectos"
-  get "usuarios" => "homepage#usuarios"
-
+  get "proyect" => "homepage#proyects"
+  get "perfiles" => "homepage#users"
+ 
+   
   scope "admin" do
+ resources :proyecto_usuarios
+  resources :categoria
+  resources :publicacions
+  resources :permisos
+  resources :procesos
+  resources :rols
   resources :acta
-  resources :proyectos
   resources :usuarios
+   resources :proyectos
   end
 
   # The priority is based upon order of creation: first created -> highest priority.

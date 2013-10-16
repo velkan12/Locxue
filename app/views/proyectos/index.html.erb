@@ -5,7 +5,6 @@
     <tr>
       <th>Titulo</th>
       <th>Descripcion</th>
-      <th>Integrantes</th>
       <th>Etapa</th>
       <th></th>
       <th></th>
@@ -18,7 +17,6 @@
       <tr>
         <td><%= proyecto.titulo %></td>
         <td><%= proyecto.descripcion %></td>
-        <td><%= proyecto.integrantes %></td>
         <td><%= proyecto.etapa %></td>
         <td><%= link_to 'Show', proyecto %></td>
         <td><%= link_to 'Edit', edit_proyecto_path(proyecto) %></td>
@@ -26,7 +24,6 @@
       </tr>
     <% end %>
   </tbody>
-
 </table>
 
 <br>
